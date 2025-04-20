@@ -1,0 +1,4 @@
+#!/bin/bash
+PYTHONPATH="$(pwd)"
+export PYTHONPATH
+python3 -m netmancer_cli.cli "$@"
